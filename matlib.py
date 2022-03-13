@@ -1,7 +1,7 @@
 #
 """
 matlib library 
-Benoit Bellone , 29/10/2017
+29/10/2017
 """
 
 import numpy as np
