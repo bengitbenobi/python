@@ -10,7 +10,7 @@ from scipy import linalg
 
 def colmax(x):
 	'''
-	# PURPOSE : Compute the minimum of a matrix by columns
+	# PURPOSE : Compute the maximum of a matrix by columns
 	#--------------------------------------------------
 	# Input  x  as matrix (nr x nc)
 	# Output matrix (1 x nc)
@@ -27,7 +27,7 @@ def rowmax(x):
  	# Output matrix (nr x 1)
  	# Version 1.0, B.Bellone, 29/10/2017)
 	'''
-	return np.max(x, axis=0)
+	return np.max(x, axis=1)
     #<- function(x){apply(as.matrix(x),1,max, na.rm=TRUE)}
 
 
